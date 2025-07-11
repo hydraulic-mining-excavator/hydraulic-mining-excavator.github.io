@@ -2,9 +2,9 @@
   <header><h1>{{ include.title | default: page.title }}</h1></header>
   <ul class="archive">
     {% for post in site.posts %}
-    <li style="display:flex; align-items: center;">
+    <li style="display:flex; justify-content: flex-end;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <time datetime="{{ post.date | date_to_xmlschema }}" style="display: flex; justify-content: flex-end;">{{ post.date | date: "%d %B %Y" }}</time>
+      <time datetime="{{ post.date | date_to_xmlschema }}" style="margin-left: auto;">{{ post.date | date: "%d %B %Y" }}</time>
     </li>
     {% endfor %}
   </ul>
