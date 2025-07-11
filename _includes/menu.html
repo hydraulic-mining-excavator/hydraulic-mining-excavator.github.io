@@ -1,4 +1,5 @@
 <nav>
+<a class="brand-image" href="{{https://hydraulic-mining-excavator.github.io}}"><img class="brand-image" src="{{/assets/imgs}}/suzanne.png"/></a>
 {%- for item in include.menu -%}
   {%- assign node = site.pages | where: "name", item.file | first -%}
   {%- assign url = item.url | default: node.url -%}
@@ -8,4 +9,3 @@
   </a>
 {%- endfor -%}
 </nav>
-<a class="brand-image" href="{{https://hydraulic-mining-excavator.github.io}}"><img class="brand-image" src="{{/assets/imgs}}/suzanne.png"/></a>
