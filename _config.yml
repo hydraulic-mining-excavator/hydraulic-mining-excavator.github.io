@@ -22,6 +22,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Cara, icon: copyright, url: "https://cara.app/explore"}
   - {title: Subscribe, icon: youtube, url: "https://www.youtube.com"}
+  - {title: Gumroad, icon: google, url: "https://gumroad.com"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
