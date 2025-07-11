@@ -67,4 +67,4 @@ You can also embed a lot of stuff, for example from YouTube, using the `embed.ht
 {% include embed.html url="https://www.youtube.com/embed/_C0A5zX-iqM" %}
 
 ## Test image
-[![My image alt description](/assets/imgs/suzanne_nobg.png)](/assets/imgs/suzanne_nobg.png)
+[![My image alt description](/assets/imgs/suzanne_nobg.png){:.centered}](/assets/imgs/suzanne_nobg.png)
