@@ -3,7 +3,7 @@
   <ul class="archive">
     {% for post in site.posts %}
     <li style="display:flex; align-items: center;">
-      <a href="{{ post.url | relative_url }}" style="display: flex; justify-content: flex-start;">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <time datetime="{{ post.date | date_to_xmlschema }}" style="display: flex; justify-content: flex-end;">{{ post.date | date: "%d %B %Y" }}</time>
     </li>
     {% endfor %}
