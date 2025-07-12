@@ -26,11 +26,12 @@
       <time datetime="{{ post.date | date_to_xmlschema }}" style="margin-left: auto;">{{ post.date | date: "%d %B %Y" }}</time>
     </li>
     {% endfor %}
+  {% endif %}
 
-  {% else %}
+  {% if site.url != {{"/" | relative_url}} %}
     {% for post in site.posts %}
       {% if post.tags contains tag[0] %}
-    Posts that contain tag '...':
+    Posts that contain tag 'materials':
     <li style="display:flex; justify-content: flex-end;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <time datetime="{{ post.date | date_to_xmlschema }}" style="margin-left: auto;">{{ post.date | date: "%d %B %Y" }}</time>
