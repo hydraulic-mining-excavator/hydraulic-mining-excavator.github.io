@@ -1,6 +1,6 @@
 <header>
   {%- assign date_format = site.date_format | default: "%B %d, %Y" -%}
-  <h1 style="display: flex; justify-content: flex-end; align-items: center;"><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a><time style="margin-left:auto; font-size: 1em;" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time></h1>
+  <h1 style="display: flex; justify-content: flex-end; align-items: center;"><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a><time style="margin-left:auto; font-size: 0.5em;" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time></h1>
 
   {%- if page.tags -%}
     {% for tag in page.tags %}
