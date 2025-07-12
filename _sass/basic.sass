@@ -27,7 +27,8 @@ p
 
 a
   color: $link-color
-  /*text-decoration: inherit*/
+  \:not(.currentFilter)
+    text-decoration: inherit
   &:hover
     text-decoration: underline
 
