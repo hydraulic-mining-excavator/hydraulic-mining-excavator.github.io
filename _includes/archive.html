@@ -19,13 +19,12 @@
   {% endfor %}
 
   page.url: {{page.url}}
-  site.url: {{site.url}}
-  site.baseurl: {{site.baseurl}}
   page.baseurl: {{page.baseurl}}
+  permalink: {{page.permalink}}
   | {{site.url | append: page.url}}
   <br>
   <!-- render posts based on current url -->
-  {% if site.url %}
+  {% if page.permalink == "" %}
     match!
     {% for post in site.posts %}
     <li style="display:flex; justify-content: flex-end;">
