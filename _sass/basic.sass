@@ -27,10 +27,11 @@ p
 
 a
   color: $link-color
-  \:not(.currentFilter)
-    text-decoration: inherit
   &:hover
     text-decoration: underline
+  
+a:not(.currentFilter)
+  text-decoration: inherit
 
 header a, footer a, aside a
   color: inherit
