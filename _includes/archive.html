@@ -18,6 +18,7 @@
     <a href="{{site.baseurl}}/{{ tag[0] }}">{{ tag[0] }}</a>
   {% endfor %}
 
+  <!-- render posts based on current url -->
   {% if {{page.url}} == {{site.baseurl}} %}
     {% for post in site.posts %}
     <li style="display:flex; justify-content: flex-end;">
