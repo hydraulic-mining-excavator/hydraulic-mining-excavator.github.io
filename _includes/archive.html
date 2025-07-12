@@ -1,13 +1,14 @@
 <article>
   <!--<header><h1>{{ include.title | default: page.title }}</h1></header>-->
   <img src="/assets/imgs/posts_squared2arrow_e4e1da.png" style="height: 50px; object-fit: contain; margin: 1em 0 0 0;"/>
-  <div style="margin-top: 1em;"></div>
   <!-- List all tags in a row -->
+  <div style="margin-top: 1em; max-width: 100vw;">
   <a class="filterLink {% if page.url == "/" %} currentFilter {%endif%}" href="{{ "/" | relative_url }}" style="display: inline;">all</a>
   {% for tag in site.tags %}
     {% assign tag_name = tag[0] %}
     <a class="filterLink {% if page.filtername == tag[0] %} currentFilter {%endif%}" href="{{site.baseurl}}/{{ tag[0] }}">{{ tag[0] }}</a>
   {% endfor %}
+  </div>
 
   <!-- render posts based on current url -->
   {% if page.url == "/" %}
