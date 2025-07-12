@@ -24,6 +24,7 @@
   page.baseurl: {{page.baseurl}}
   <!-- render posts based on current url -->
   {% if site.url == site.url | append: page.url %}
+    match!
     {% for post in site.posts %}
     <li style="display:flex; justify-content: flex-end;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -32,6 +33,7 @@
     {% endfor %}
 
   {% else %}
+  no match
     {% for post in site.posts %}
       {% if post.tags == "materials" %}
     Posts that contain tag 'materials':
