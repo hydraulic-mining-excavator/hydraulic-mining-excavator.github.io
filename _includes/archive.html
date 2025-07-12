@@ -23,7 +23,7 @@
   site.baseurl: {{site.baseurl}}
   page.baseurl: {{page.baseurl}}
   <!-- render posts based on current url -->
-  {% if site.url == page.url %}
+  {% if site.url == site.url | append: page.url %}
     {% for post in site.posts %}
     <li style="display:flex; justify-content: flex-end;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
