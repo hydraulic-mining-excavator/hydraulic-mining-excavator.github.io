@@ -12,10 +12,10 @@
 
 
   <!-- List all tags in a row -->
-  <a href="{{ "/" | relative_url }}" style="display: inline;">all</a>
+  <a class="filterLink" href="{{ "/" | relative_url }}" style="display: inline;">all</a>
   {% for tag in site.tags %}
     {% assign tag_name = tag[0] %}
-    <a href="{{site.baseurl}}/{{ tag[0] }}">{{ tag[0] }}</a>
+    <a class="filterLink" href="{{site.baseurl}}/{{ tag[0] }}">{{ tag[0] }}</a>
   {% endfor %}
 
   <!-- render posts based on current url -->
