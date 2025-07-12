@@ -19,7 +19,7 @@
   {% endfor %}
 
   <!-- render posts based on current url -->
-  {% if site.url == {{"/" | relative_url}} %}
+  {% if site.url == site.baseurl %}
     {% for post in site.posts %}
     <li style="display:flex; justify-content: flex-end;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
