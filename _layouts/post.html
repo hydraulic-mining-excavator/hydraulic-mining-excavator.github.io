@@ -3,6 +3,12 @@ layout: default
 ---
 
 <article>
+  {%- if page.tags -%}
+    {% for tag in page.tags %}
+            {{ tag }}
+    {% endfor %}
+  {%- endif -%}
+  
   {% include meta.html post=page %}
   {{ content }}
   {% if page.comments != false and site.comments.isso or site.comments.disqus %}
