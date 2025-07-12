@@ -25,7 +25,7 @@
   | {{site.url | append: page.url}}
   <br>
   <!-- render posts based on current url -->
-  {% if site.url == site.url | append: page.url %}
+  {% if site.url %}
     match!
     {% for post in site.posts %}
     <li style="display:flex; justify-content: flex-end;">
