@@ -21,7 +21,6 @@
   {{page.url}}
   <!-- render posts based on current url -->
   {% if page.url == "/" %}
-    match!
     {% for post in site.posts %}
     <li style="display:flex; justify-content: flex-end;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -30,8 +29,6 @@
     {% endfor %}
 
   {% else %}
-  no match
-  Posts that contain tag {{ tag[0] }}:
     {% for post in site.posts %}
       {% if post.tags contains "materials" %}
     <li style="display:flex; justify-content: flex-end;">
