@@ -26,9 +26,8 @@
       <time datetime="{{ post.date | date_to_xmlschema }}" style="margin-left: auto;">{{ post.date | date: "%d %B %Y" }}</time>
     </li>
     {% endfor %}
-  {% endif %}
 
-  {% if site.url != {{"/" | relative_url}} %}
+  {% else %}
     {% for post in site.posts %}
       {% if post.tags contains tag[0] %}
     Posts that contain tag 'materials':
