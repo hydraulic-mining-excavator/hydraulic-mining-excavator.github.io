@@ -18,10 +18,7 @@
     <a href="{{site.baseurl}}/{{ tag[0] }}">{{ tag[0] }}</a>
   {% endfor %}
 
-  {% for post in site.posts %}
-    {{ post.tags }}
-  {% endfor %}
-  <br>
+  {{page.url}}
   <!-- render posts based on current url -->
   {% if page.url == "/" %}
     match!
@@ -35,7 +32,7 @@
   {% else %}
   no match
     {% for post in site.posts %}
-      {% if post.tags == "materials" %}
+      {% if post.tags contains "materials" %}
     Posts that contain tag 'materials':
     <li style="display:flex; justify-content: flex-end;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
