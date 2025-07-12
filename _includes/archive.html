@@ -18,17 +18,19 @@
     <a href="{{site.baseurl}}/{{ tag[0] }}">{{ tag[0] }}</a>
   {% endfor %}
 
-  {{page.url}}
   <!-- render posts based on current url -->
   {% if page.url == "/" %}
+  <ul class="archive">
     {% for post in site.posts %}
     <li style="display:flex; justify-content: flex-end;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <time datetime="{{ post.date | date_to_xmlschema }}" style="margin-left: auto;">{{ post.date | date: "%d %B %Y" }}</time>
     </li>
     {% endfor %}
+  </ul>
 
   {% else %}
+  <ul class="archive">
     {% for post in site.posts %}
       {% if post.tags contains page.filtername %}
     <li style="display:flex; justify-content: flex-end;">
@@ -37,6 +39,7 @@
     </li>
       {% endif %}
     {% endfor %}
+  </ul>
   {% endif %}
   
   
