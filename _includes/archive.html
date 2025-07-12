@@ -19,7 +19,7 @@
   {% endfor %}
 
   <!-- render posts based on current url -->
-  {% if {{ site.baseurl }} == {{ "/" | relative url }} %}
+  {% if site.baseurl == "/" | relative url %}
     {% for post in site.posts %}
     <li style="display:flex; justify-content: flex-end;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -29,7 +29,7 @@
 
   {% else %}
     {% for post in site.posts %}
-      {% if post.tags contains {{ tag[0] }} %}
+      {% if post.tags contains tag[0] %}
     Posts that contain tag '...':
     <li style="display:flex; justify-content: flex-end;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
