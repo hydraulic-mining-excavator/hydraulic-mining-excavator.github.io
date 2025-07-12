@@ -30,7 +30,7 @@
   {% else %}
     {% for post in site.posts %}
       {% if post.tags contains {{ tag[0] }} %}
-    Posts that contain tag '{{ tag[0] }}':
+    Posts that contain tag '...':
     <li style="display:flex; justify-content: flex-end;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <time datetime="{{ post.date | date_to_xmlschema }}" style="margin-left: auto;">{{ post.date | date: "%d %B %Y" }}</time>
