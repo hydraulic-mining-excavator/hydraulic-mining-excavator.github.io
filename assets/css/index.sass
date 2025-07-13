@@ -3,12 +3,6 @@
 
 @import index, font, basic, layout, classes
 
-@media only screen and (max-width: 600px)
-  .aboutImg
-    width: 120%
-  .aboutLink
-    width: 90%
-
 @media (min-width: 40em)
   body > header, body > article, body > footer
     padding: 1.75em calc(40% - 17em)
@@ -32,3 +26,14 @@ body > footer
   box-shadow: 0 0 .6em rgba($dark, 0.04) inset
   border-top: 1px solid reduce(14)
   opacity: .9
+
+.aboutImg
+  width: 100%
+.aboutLink
+  width: 55%
+
+@media only screen and (max-width: 600px)
+  .aboutImg
+    width: 120%
+  .aboutLink
+    width: 90%
