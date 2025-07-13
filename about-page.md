@@ -9,4 +9,4 @@ layout: page
 [![Look at my 3d artworks and drawings.](/assets/imgs/cara_logo_coal.png)](https://cara.app/jackal420)
 [![Breakdowns in video format.](/assets/imgs/yt_logo_coal.png)](https://www.youtube.com/@jackal_blender)
 
-<img src="/assets/imgs/cara_logo_coal.png" alt="drawing" style="width:50%;"/>
+<a href="https://cara.app/jackal420"><img src="/assets/imgs/cara_logo_coal.png" alt="drawing" style="width:50%; display: block; margin: auto;"/></a>
