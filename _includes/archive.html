@@ -9,8 +9,7 @@
     <a class="filterLink {% if page.filtername == tag[0] %} currentFilter {%endif%}" href="{{site.baseurl}}/{{ tag[0] }}">{{ tag[0] }}</a>
   {% endfor %}
   </div>
-{% if page.filtername %} true (filtername exists) {{page.filtername}} {% else %} false (no filtername) {% endif %}
-  {{site.tags}}; {{tag[0]}}
+{% if site.tags contains page.filtername %} contains {% else %} doesn't contain {% endif %}
   <!-- render posts based on current url -->
   {% if page.url == "/" %}
   <ul class="archive">
