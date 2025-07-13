@@ -30,7 +30,7 @@
   {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
 {% endif %}
 
-<header style="height: 8vh; display: flex; flex-wrap: nowrap;">
+<header style="height: 10vh; display: flex; flex-wrap: nowrap;">
   <div style="width: 20%; margin-right: auto; display: flex; flex-direction: row; align-items: center;">
   <a href="{{ "/" | relative_url }}"><img class="logo-image" src="/assets/imgs/suzanne_nobg.png" style="width: 60px; object-fit: contain; margin-right: 0.3em;"/></a>
   <a href="{{ "/" | relative_url }}" class="textLogo"><img src="/assets/imgs/jackal_text_logo.png" style="height: 25px; object-fit: contain;"/></a>
