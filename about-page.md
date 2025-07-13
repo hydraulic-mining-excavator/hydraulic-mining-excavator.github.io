@@ -8,5 +8,5 @@ layout: page
 
 <div style="width:55%; display: block; margin: auto;">
 <a target="_blank" rel="noopener noreferrer" href="https://cara.app/jackal420"><img src="/assets/imgs/cara_logo_coal.png" alt="Look at my 3d artworks and drawings."/></a>
-<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@jackal_blender"><img src="/assets/imgs/yt_logo_coal.png" alt="Breakdowns in video format." style="margin-top: 20px;"/></a>
+<a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@jackal_blender"><img src="/assets/imgs/yt_logo_coal.png" alt="Breakdowns in video format." style="margin-top: 20px; margin-bottom: 50px;"/></a>
 </div>
