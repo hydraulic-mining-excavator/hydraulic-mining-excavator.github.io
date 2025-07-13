@@ -10,7 +10,7 @@
   {% endfor %}
   </div>
 {% if page.filtername %} true (filtername exists) {{page.filtername}} {% else %} false (no filtername) {% endif %}
-  {{site.tags}}; {{site.tags[0]}}
+  {{site.tags}}; {{tag[0]}}
   <!-- render posts based on current url -->
   {% if page.url == "/" %}
   <ul class="archive">
