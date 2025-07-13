@@ -1,4 +1,4 @@
-<nav style="width: 80%; display: flex; flex-direction: row; justify-content: flex-end;">
+<nav>
 {%- for item in include.menu -%}
   {%- assign node = site.pages | where: "name", item.file | first -%}
   {%- assign url = item.url | default: node.url -%}
