@@ -3,10 +3,10 @@
   <h1 style="display: flex; flex-direction: row; justify-content: flex-end; align-items: baseline;"><a href="{{ include.post.url | relative_url }}">{{ include.post.title }}</a><time style="margin-left:auto; font-size: 0.6em; font-weight: 400;" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: date_format }}</time></h1>
 
   <!-- display post tags -->
-  <div style="margin-top: 0.5em;">
+  <div style="margin-top: 0.5em; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start;">
   {%- if page.tags -%}
     {% for tag in page.tags %}
-            <a href="{{site.baseurl}}/{{ tag | slugize }}" style="display: inline; width: fit-content; background:#A8BFA4; border-radius: 5px; opacity: 1; color: #333534; padding: 2px 7px; margin: 10px 0px;">{{ tag }}</a>
+            <a href="{{site.baseurl}}/{{ tag | slugize }}" style="display: inline; width: fit-content; background:#A8BFA4; border-radius: 5px; opacity: 1; color: #333534; padding: 2px 7px; margin: 10px 3px;">{{ tag }}</a>
     {% endfor %}
   {%- endif -%}
   </div>
