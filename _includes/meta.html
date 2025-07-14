@@ -6,7 +6,7 @@
   <div style="margin-top: 0.5em; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; column-gap: 5px;">
   {%- if page.tags -%}
     {% for tag in page.tags %}
-            <a href="{{site.baseurl}}/{{ tag | slugize }}" style="display: inline; width: fit-content; background:#A8BFA4; border-radius: 5px; opacity: 1; color: #333534; padding: 2px 7px; margin: 10px 0px;">{{ tag }}</a>
+            <a href="{{site.baseurl}}/{{ tag | slugize }}" style="display: inline; width: fit-content; background:#A8BFA4; border-radius: 5px; opacity: 1; color: #333534; padding: 2px 7px; margin: 5px 0px;">{{ tag }}</a>
     {% endfor %}
   {%- endif -%}
   </div>
