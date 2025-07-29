@@ -1,7 +1,6 @@
 ---
 title:  "Markdown examples"
 layout: post
-tag: project
 published: true
 hidden: true
 ---
