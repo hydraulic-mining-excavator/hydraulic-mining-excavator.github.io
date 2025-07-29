@@ -14,7 +14,7 @@
   {% if page.url == "/" %}
   <ul class="archive">
     {% for post in site.posts %}
-      {% if post.hidden != true %}
+      {% if post.hidden != true %} <!-- check if post is not hidden -->
     <li style="display:flex; justify-content: flex-end;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <time datetime="{{ post.date | date_to_xmlschema }}" style="margin-left: auto;">{{ post.date | date: "%d %B %Y" }}</time>
@@ -26,13 +26,13 @@
   {% else %}
   <ul class="archive">
     {% for post in site.posts %}
-      {% if post.hidden != true %}
       {% if post.tags contains page.filtername %}
+        {% if post.hidden != true %} <!-- check if post is not hidden -->
     <li style="display:flex; justify-content: flex-end;">
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <time datetime="{{ post.date | date_to_xmlschema }}" style="margin-left: auto;">{{ post.date | date: "%d %B %Y" }}</time>
     </li>
-      {% endif %}
+        {% endif %}
       {% endif %}
     {% endfor %}
   </ul>
