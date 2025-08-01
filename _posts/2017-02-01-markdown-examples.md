@@ -94,4 +94,4 @@ function foo () {
     2. Second nested item
 
 
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+{% include carousel.html height="300" unit="px" number="1" %}
