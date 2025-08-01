@@ -32,7 +32,9 @@ layout: default
 </script>
 
 <script>
-document.getElementsByClassName("gsc-comments-count").style.color = "#e4e1da";
+document.addEventListener("DOMContentLoaded", (event) => {
+    document.getElementsByClassName("gsc-comments-count").style.color = "#e4e1da";
+});
 </script>
 
 <script type="text/javascript" src="/assets/lightbox.js"></script>
