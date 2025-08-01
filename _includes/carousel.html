@@ -110,13 +110,13 @@
 }
 .carousel__indicators {
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
   width: 100%;
   text-align: center;
 }
 .carousel__indicator {
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   border-radius: 100%;
   display: inline-block;
   z-index: 2;
@@ -169,7 +169,7 @@
   width: 30px;
 }
 .carousel__indicator {
-  background-color: #fafafa;
+  background-color: #8C8B87;
 }
 {% for item in page.carousels[number].images %}
 .carousel__slide:nth-of-type({{ forloop.index }}),
