@@ -28,7 +28,7 @@
           <ul>
             {% for item in page.carousels[number].images %}
             <!--<li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>-->
-            <a class="carousel__slide" href="{{item.image}}"><img src="{{item.image}}" style="object-fit: cover; display: flex; justify-content: center; align-items: center;"></a>
+            <a class="carousel__slide" href="{{item.image}}"><img src="{{item.image}}" style="object-fit: cover;"></a>
             {% endfor %}
           </ul>
         </div>
@@ -80,16 +80,16 @@
 {% endfor %}
 
 .carousel__control {
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
   margin-top: -15px;
   top: 50%;
   position: absolute;
   display: block;
   cursor: pointer;
-  border-width: 5px 5px 0 0;
+  border-width: 3px 3px 0 0;
   border-style: solid;
-  border-color: #fafafa;
+  border-color: #8C8B87;
   opacity: 0.35;
   opacity: 1;
   outline: 0;
@@ -177,6 +177,9 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 {% endfor %}
 </style>
