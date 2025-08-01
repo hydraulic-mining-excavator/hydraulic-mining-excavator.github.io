@@ -161,7 +161,6 @@
   position: absolute;
   opacity: 0;
   overflow: hidden;
-  object-fit: cover;
 }
 .carousel__slide .overlay {height: 100%;}
 .carousel--thumb .carousel__indicator {
@@ -174,9 +173,8 @@
 {% for item in page.carousels[number].images %}
 .carousel__slide:nth-of-type({{ forloop.index }}),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type({{ forloop.index }}) {
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  object-fit: cover;
 }
 {% endfor %}
 </style>
