@@ -6,10 +6,10 @@ published: true
 hidden: true
 carousels:
   - images: 
-    - image: /assets/imgs/about_tab.png
+    - image: /assets/imgs/cara_logo_coal.png
     - image: /assets/imgs/nopage404.png
     - image: /assets/imgs/suzanne_nobg.png
-    - image: /assets/imgs/about_tab_underlined.png
+    - image: /assets/imgs/posts_below2_333534.png
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
