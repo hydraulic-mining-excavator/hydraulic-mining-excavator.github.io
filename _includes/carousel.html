@@ -28,7 +28,7 @@
           <ul>
             {% for item in page.carousels[number].images %}
             <!--<li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>-->
-            <a class="carousel__slide" href="{{item.image}}"><img src="{{item.image}}" style="object-fit: contain;"></a>
+            <a class="carousel__slide" href="{{item.image}}"><img src="{{item.image}}" style="object-fit: contain; height: 100%"></a>
             {% endfor %}
           </ul>
         </div>
