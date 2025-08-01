@@ -93,6 +93,8 @@ function foo () {
     1. First nested item
     2. Second nested item
 
-
+### Image Carousel
 {% include carousel.html height="300" unit="px" number="1" %}
+
+### Single Image
 [![My image alt description](/assets/imgs/suzanne_nobg.png){:.centered}](/assets/imgs/suzanne_nobg.png)
