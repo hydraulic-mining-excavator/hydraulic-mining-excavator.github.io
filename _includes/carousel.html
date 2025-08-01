@@ -60,9 +60,9 @@
           transform: translateX(-{{ forloop.index0 }}00%);
 }
 .carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__slide:nth-of-type({{ forloop.index }}) {
-  /*transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
   transition: opacity 0.5s, transform 0.5s;
-  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;*/
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
   top: 0;
   left: 0;
   right: 0;
@@ -138,8 +138,6 @@
   /*transition: -webkit-transform 0.5s ease 0s;
   transition: transform 0.5s ease 0s;
   transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;*/
-  opacity: 1;
-  transition: opacity 0.5s;
 }
 .carousel__track .carousel__slide {
   display: block;
@@ -163,7 +161,6 @@
   height: 100%;
   position: absolute;
   opacity: 0;
-  transition: opacity 0.5s;
   overflow: hidden;
 }
 .carousel__slide .overlay {height: 100%;}
