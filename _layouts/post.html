@@ -33,8 +33,7 @@ layout: default
 
 <script type="text/javascript">
 window.addEventListener("DOMContentLoaded", function() {
-var iframe = document.getElementsByTagName('iframe')[0];
-iframe.addEventListener("load", function() {
+document.getElementsByClassName("giscus-frame")[0].addEventListener("load", function() {
 
     window.frames[0].document.body.style.backgroundColor = "aqua";
   
