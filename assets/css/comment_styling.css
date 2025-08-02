@@ -1,3 +1,4 @@
+/*
 main {
   --color-prettylights-syntax-comment: #8b949e;
   --color-prettylights-syntax-constant: #79c0ff;
@@ -79,8 +80,9 @@ main {
   --color-primer-shadow-inset: 0 0 transparent;
   --color-scale-gray-7: #21262d;
   --color-scale-blue-8: #0c2d6b;
-
+*/
   /*! Extensions from @primer/css/alerts/flash.scss */
+/*
   --color-social-reaction-bg-hover: var(--color-scale-gray-7);
   --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
 }
@@ -92,7 +94,7 @@ main .pagination-loader-container {
 main .gsc-loading-image {
   background-image: url("https://github.githubassets.com/images/mona-loading-dark.gif");
 }
-
+*/
 .gsc-comments-count {
   color: #e4e1da;
 }
