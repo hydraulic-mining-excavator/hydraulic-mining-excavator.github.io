@@ -13,16 +13,6 @@ layout: default
   {% endif %}
 </article>
 
-<script type="text/javascript">
-document.addEventListener("DOMContentLoaded", function() { 
-
-      document.querySelectorAll('.gsc-header').forEach(elem => {
-      elem.style.color = "aqua";
-  });
-  
-});
-</script>
-
 <div class="giscus" style="width: 80%; margin: 50px auto; background-color: #333534; padding: 15px; border-radius: 3px;"></div>
 <script src="https://giscus.app/client.js"
         data-repo="hydraulic-mining-excavator/hydraulic-mining-excavator.github.io"
@@ -41,6 +31,14 @@ document.addEventListener("DOMContentLoaded", function() {
         async>
 </script>
 
+<script type="text/javascript">
+var iframe = document.getElementsByClassName('giscus-frame')[0];
+iframe.addEventListener("load", function() {
+
+    window.frames[0].document.body.style.backgroundColor = "aqua";
+  
+});
+</script>
 
 <script type="text/javascript" src="/assets/lightbox.js"></script>
 <link rel="stylesheet" href="/assets/css/lightbox.css">
