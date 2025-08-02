@@ -15,7 +15,11 @@ layout: default
 
 <script type="text/javascript">
 document.addEventListener("DOMContentLoaded", function() { 
-    document.querySelector(".gsc-comments-count").style.color = "aqua";
+
+      document.querySelectorAll('.gsc-comments-count').forEach(elem => {
+      elem.style.color = "aqua";
+  });
+  
 });
 </script>
 
