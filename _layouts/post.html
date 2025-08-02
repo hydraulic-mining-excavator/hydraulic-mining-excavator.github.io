@@ -33,13 +33,13 @@ layout: default
 
 <script type="text/javascript">
 window.addEventListener("DOMContentLoaded", function() {
-document.getElementsByClassName("giscus")[0].addEventListener("load", ev => {
+document.getElementsByClassName("giscus-frame")[0].addEventListener("load", ev => {
   
 var cssLink = document.createElement("link");
 cssLink.href = "/assets/css/comment_styling.css"; 
 cssLink.rel = "stylesheet"; 
 cssLink.type = "text/css"; 
-document.getElementsByClassName("iframe")[0].document.head.appendChild(cssLink);
+document.getElementsByClassName("iframe")[0].head.appendChild(cssLink);
 
 });
 });
