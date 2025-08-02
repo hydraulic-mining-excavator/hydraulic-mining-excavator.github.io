@@ -13,6 +13,12 @@ layout: default
   {% endif %}
 </article>
 
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() { 
+    document.querySelector(".gsc-comments-count").style.color = "aqua";
+});
+</script>
+
 <div class="giscus" style="width: 80%; margin: 50px auto; background-color: #333534; padding: 15px; border-radius: 3px;"></div>
 <script src="https://giscus.app/client.js"
         data-repo="hydraulic-mining-excavator/hydraulic-mining-excavator.github.io"
@@ -29,9 +35,6 @@ layout: default
         data-loading="lazy"
         crossorigin="anonymous"
         async>
-  document.addEventListener("DOMContentLoaded", function() { 
-    document.querySelector(".gsc-comments-count").style.color = "#e4e1da";
-});
 </script>
 
 
