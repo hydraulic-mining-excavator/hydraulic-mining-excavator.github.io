@@ -1,3 +1,11 @@
+.gsc-comments-count {
+  color: #e4e1da !important;
+}
+
+.gsc-comment-box {
+  background: none;
+  border: 1px solid #565B57;
+}
 /*
 main {
   --color-prettylights-syntax-comment: #8b949e;
@@ -95,11 +103,4 @@ main .gsc-loading-image {
   background-image: url("https://github.githubassets.com/images/mona-loading-dark.gif");
 }
 */
-.gsc-comments-count {
-  color: #e4e1da !important;
-}
 
-.gsc-comment-box {
-  background: none;
-  border: 1px solid #565B57;
-}
