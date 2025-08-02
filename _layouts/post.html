@@ -14,7 +14,7 @@ layout: default
 </article>
 
 <div class="giscus" style="width: 80%; margin: 50px auto; background-color: #333534; padding: 15px; border-radius: 3px;"></div>
-<!--<script src="https://giscus.app/client.js"
+<script src="https://giscus.app/client.js"
         data-repo="hydraulic-mining-excavator/hydraulic-mining-excavator.github.io"
         data-repo-id="R_kgDOPK5ZPg"
         data-category="Announcements"
@@ -29,34 +29,9 @@ layout: default
         data-loading="lazy"
         crossorigin="anonymous"
         async>
-</script>-->
-
-<link class="customStyling" rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/hydraulic-mining-excavator/hydraulic-mining-excavator.github.io/refs/heads/master/assets/css/comment_styling.css">
-<script>
-  localStorage.setItem('giscus-theme', document.querySelector(".customStyling"));
-  let giscusTheme = localStorage.getItem("giscus-theme");
-  let giscusAttributes = {
-    "src": "https://giscus.app/client.js",
-    "data-repo": "hydraulic-mining-excavator/hydraulic-mining-excavator.github.io",
-    "data-repo-id": "R_kgDOPK5ZPg",
-    "data-category": "Announcements",
-    "data-category-id": "DIC_kwDOPK5ZPs4CtoZr",
-    "data-mapping": "pathname",
-    "data-strict": "0",
-    "data-reactions-enabled": "0",
-    "data-emit-metadata": "0",
-    "data-input-position": "top",
-    "data-theme": giscusTheme,
-    "data-lang": "en",
-    "data-loading": "lazy",
-    "crossorigin": "anonymous",
-    "async": "",
-  };
-  
-  let giscusScript = document.createElement("script");
-  Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
-  document.body.appendChild(giscusScript);
 </script>
+
+<link id="giscus-theme" rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/hydraulic-mining-excavator/hydraulic-mining-excavator.github.io/refs/heads/master/assets/css/comment_styling.css">
 
 <script type="text/javascript" src="/assets/lightbox.js"></script>
 <link rel="stylesheet" href="/assets/css/lightbox.css">
