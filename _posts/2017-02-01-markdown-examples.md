@@ -102,3 +102,4 @@ function foo () {
 
 ### Single Image
 [![My image alt description](/assets/imgs/suzanne_nobg.png){:.centered}](/assets/imgs/suzanne_nobg.png)
+*Image Caption*
