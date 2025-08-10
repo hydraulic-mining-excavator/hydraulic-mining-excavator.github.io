@@ -1,7 +1,7 @@
 ---
 title:  "Markdown examples"
 layout: post
-tag: project
+tag:
 published: true
 hidden: true
 carousels:
