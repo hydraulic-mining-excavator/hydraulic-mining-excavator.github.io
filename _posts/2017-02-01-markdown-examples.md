@@ -101,5 +101,6 @@ function foo () {
 {% include carousel.html height="300" unit="px" number="1" %}
 
 ### Single Image
+Some text.
 [![My image alt description](/assets/imgs/suzanne_nobg.png){:.centered}](/assets/imgs/suzanne_nobg.png)
 *Image Caption*
