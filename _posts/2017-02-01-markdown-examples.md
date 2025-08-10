@@ -12,8 +12,8 @@ carousels:
     - image: /assets/imgs/posts_below2_333534.png
 ---
 
-Contents:\
-[Image Carousel](#image-carousel)\
+Contents:  
+[Image Carousel](#image-carousel)  
 &nbsp;&nbsp;[Single Image](#single-image)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
