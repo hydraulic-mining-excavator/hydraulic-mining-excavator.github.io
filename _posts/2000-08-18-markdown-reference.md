@@ -8,6 +8,6 @@ hidden: true
 
 # Single image
 ```markdown
-{% include image.md image="/assets/imgs/postimgs/" alt="alt description" caption="Optional image caption" %}
+{% raw %}{% include image.md image="/assets/imgs/postimgs/" alt="alt description" caption="Optional image caption" %}{% endraw %}
 ```
 {% include image.md image="/assets/imgs/suzanne_nobg.png" alt="suzanne image" caption="Image caption" %}
