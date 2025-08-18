@@ -6,4 +6,4 @@ published: true
 hidden: true
 ---
 
-{% include image.md image="/assets/imgs/suzanne_nobg.png" %}
+{% include image.md image="/assets/imgs/suzanne_nobg.png" alt="suzanne image" caption="Image caption" %}
