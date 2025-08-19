@@ -6,14 +6,14 @@ published: true
 hidden: true
 ---
 
-|*Italic text*|<pre>*Italic text*</pre>|
-|_Italic text_|{% raw %}_Italic text_ {% endraw %}|
-|**Bold text** |{% raw %}**Bold text** {% endraw %}|
-|***Bold Italic***|{% raw %}***Bold Italic*** {% endraw %}|
-|`highlighted text`  |{% raw %}`highlighted text` {% endraw %}|
-|<u>Underlined text</u> |{% raw %}<u>Underlined text</u> {% endraw %}|
-|<s>Strikethrough</s>|{% raw %}<s>Strikethrough</s> {% endraw %}|
-|~~Strikethrough~~|{% raw %}~~Strikethrough~~{% endraw %}|
+*Italic text*  
+_Italic text_  
+**Bold text**  
+***Bold Italic***  
+`highlighted text`  
+<u>Underlined text</u>  
+<s>Strikethrough</s>  
+~~Strikethrough~~ 
 
 # Lists
 
