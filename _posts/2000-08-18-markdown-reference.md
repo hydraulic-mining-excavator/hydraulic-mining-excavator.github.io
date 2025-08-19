@@ -6,7 +6,7 @@ published: true
 hidden: true
 ---
 
-<table>
+<table style="overflow:hidden;">
   <tr>
     <td>
 *Italic text*       
