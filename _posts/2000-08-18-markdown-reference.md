@@ -6,7 +6,7 @@ published: true
 hidden: true
 ---
 
-|*Italic text*|{% raw %}*Italic text*{% endraw %}|
+|*Italic text*|<pre>*Italic text*</pre>|
 |_Italic text_|{% raw %}_Italic text_ {% endraw %}|
 |**Bold text** |{% raw %}**Bold text** {% endraw %}|
 |***Bold Italic***|{% raw %}***Bold Italic*** {% endraw %}|
