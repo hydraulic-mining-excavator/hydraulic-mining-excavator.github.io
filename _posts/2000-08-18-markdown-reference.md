@@ -6,11 +6,34 @@ published: true
 hidden: true
 ---
 
-*text*  
-**text**  
-<u>text</u>  
+<table>
+  <tr>
+    <td>
+*Italic text*       
 _Italic text_  
-`highlighted text`
+**Bold text**  
+***Bold Italic***  
+`highlighted text`  
+<u>Underlined text</u>  
+<s>Strikethrough</s>  
+~~Strikethrough~~
+    </td>
+    <td>
+{% raw %}
+*Italic text*       
+_Italic text_  
+**Bold text**  
+***Bold Italic***  
+`highlighted text`  
+<u>Underlined text</u>  
+<s>Strikethrough</s>  
+~~Strikethrough~~
+{% endraw %}
+    </td>
+  </tr>
+</table>
+
+
 
 # Single image
 
