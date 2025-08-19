@@ -33,7 +33,19 @@ _Italic text_
   </tr>
 </table>
 
+# Lists
 
+## Unordered list
+- item 1
+- item 2
+    - nested item
+- item 3
+
+## Ordered list
+1. item 1
+2. item 2
+    1. nested item
+3. item 3
 
 # Single image
 
