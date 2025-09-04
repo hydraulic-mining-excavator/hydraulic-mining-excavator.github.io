@@ -20,7 +20,7 @@ carousels:
 > - a variation of chatoyancy shader - asterism shader (has 3 bands of reflected light)
 > - 3d model of a cabochon cut gem
 
-Works in cycles only!
+Works in cycles only!  
 File was last opened in blender 4.5.2  
 
 <span style="background: #cbd0d7; border-radius: 5px; padding: 2px 7px;">[download .blend file](/assets/downloadable_assets/chatoyant_gem_shader.blend)</span>
