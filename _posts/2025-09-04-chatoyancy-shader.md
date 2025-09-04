@@ -11,5 +11,5 @@ carousels:
     - image: /assets/imgs/postimgs/chatoyancy_shader/Screenshot from 2025-09-04 19-56-32.png
 ---
 
-{% include carousel.html height="400" unit="px" number="1" %}
+{% include carousel.html height="25" unit="vw" number="1" %}  
 [download .blend file](/assets/downloadable_assets/chatoyant_gem_shader.blend)
